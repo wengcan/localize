@@ -6,7 +6,7 @@ import setValue from './setValue';
 import { cwd } from 'process';
 
 
-export class NotionLocalize {
+export default class NotionLocalize {
     private labelKey;
     private token;
     private databaseId;
