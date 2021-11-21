@@ -3,6 +3,7 @@ interface IConstructorParams{
     databaseId: string;
     labelKey?: string;
     localePath?: string;
+    namespace?: string;
 }
 
 interface ITextBlock{

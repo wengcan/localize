@@ -1,4 +1,6 @@
 node_modules/
 .parcel-cache/
 src/
+assets/
 tsconfig.json
+test.js
