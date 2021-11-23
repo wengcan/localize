@@ -1,11 +1,11 @@
 {
   "name": "notion-localize-i18next",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "notion-localize i18next",
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build --no-source-maps",
@@ -13,10 +13,9 @@
   },
   "dependencies": {
     "i18next-parser": "^5.2.0",
-    "notion-localize": "^0.1.4"
+    "notion-localize": "^0.1.7"
   },
   "devDependencies": {
-    
     "parcel": "^2.0.1"
   },
   "author": "",

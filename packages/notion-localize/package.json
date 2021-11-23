@@ -1,6 +1,6 @@
 {
   "name": "notion-localize",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "use Notion as localization and translation management databse",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require":  "./dist/main.js",
+      "require": "./dist/main.js",
       "default": "./dist/module.js"
     }
   },
