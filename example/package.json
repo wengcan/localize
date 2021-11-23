@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "notion-localize-i18next": "node ./scripts/notion-localize-i18next.js",
-    "restart": "npm run notion-localize-i18next",
+    "prestart": "npm run notion-localize-i18next",
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"

@@ -1,5 +1,5 @@
 
-#### use Notion table databse management localization and translation 
+#### use Notion table databse manage localization and translation 
 
 - Status
 
@@ -28,8 +28,8 @@ import NotionLocalize from "notion-localize";
 const notionLocalize = new NotionLocalize({
     token: 'your Notion integration token',
     databaseId: 'your notion databse id',
-    labelKey: 'optional: label of the databse',
-    localePath: "optional: locale folder path"
+    labelKey: 'optional: label of the databse, default is Label',
+    localePath: "optional: locale folder path, eg. './src/locale/$LOCALE/$NAMESPACE.json'"
 });
 
 notionLocalize.run();
