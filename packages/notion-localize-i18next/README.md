@@ -30,4 +30,9 @@ notionLocalizei18next({
 
 ```
 
+
 run the script when you need to sync the translation between Notion and your project
+
+- Sample React Project
+
+[vite App](https://github.com/wengcan/localize/tree/main/example)
