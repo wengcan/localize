@@ -2,4 +2,3 @@ node_modules/
 .parcel-cache/
 locale/
 test.js
-package-lock.json

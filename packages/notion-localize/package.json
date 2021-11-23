@@ -1,6 +1,6 @@
 {
   "name": "notion-localize",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "use Notion as localization and translation management databse",
   "source": "src/index.ts",
   "main": "dist/main.js",

@@ -4,3 +4,4 @@ src/
 assets/
 tsconfig.json
 test.js
+package-lock.json

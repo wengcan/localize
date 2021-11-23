@@ -106,6 +106,5 @@ dist
 #parcel-bundler cache
 .cache/
 .parcel-cache/
-package-lock.json
 .DS_Store
 test/
