@@ -13,7 +13,12 @@ npm i notion-localize
 - Basic usage
 
 
-follow this [Share a database with your integration](https://developers.notion.com/docs/getting-started#share-a-database-with-your-integration) to create a Notion table database (inline) and set the integration
+Follow this [Share a database with your integration](https://developers.notion.com/docs/getting-started#share-a-database-with-your-integration) to create a Notion table database (inline) and set the integration
+
+The database will be like this:
+
+![](https://raw.githubusercontent.com/wengcan/localize/main/packages/notion-localize/assets/WX20211122-002302.png)
+
 
 Sync the database to project locale dir:
 
@@ -41,7 +46,7 @@ Add some keys to Notion database:
 
 ```
 notionLocalize.addTranslationKeys([
-    'nameTitle',
+    'homepage.title',
     'simpleContent'
 ]);
 ```

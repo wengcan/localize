@@ -1,20 +1,25 @@
 {
   "name": "sample",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "notion-localize-i18next": "node ./scripts/notion-localize-i18next.js",
+    "restart": "npm run notion-localize-i18next",
+    "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "notion-localize": "^0.1.0",
+    "i18next": "^21.5.2",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-i18next": "^11.14.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react": "^1.0.0",
+    "notion-localize": "^0.1.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
   }
